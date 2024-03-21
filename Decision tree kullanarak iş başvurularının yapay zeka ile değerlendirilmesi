@@ -5,8 +5,6 @@ from sklearn import tree
 df = pd.read_csv("C:\\Users\\Sena\\Desktop\\DecisionTreesClassificationDataSet.csv")
 df.head()
 
-
-
 duzetme_mapping = {'Y': 1, 'N': 0}
 
 df['IseAlindi'] = df['IseAlindi'].map(duzetme_mapping)
